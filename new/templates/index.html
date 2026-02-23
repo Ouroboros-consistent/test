@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decimal to Binary Converter</title>
+</head>
+<body>
+    <h2>Decimal to Binary Converter</h2>
+    
+    <form method="POST">
+        <input type="text" name="decimal" placeholder="Masukkan angka desimal">
+        <button type="submit">Convert</button>
+    </form>
+
+    {% if result %}
+        <h3>Hasil: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
